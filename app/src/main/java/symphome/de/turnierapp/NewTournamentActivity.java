@@ -30,7 +30,7 @@ public class NewTournamentActivity extends AppCompatActivity {
         btSave = findViewById(R.id.btSave);
 
         // setzt das Attribut uris
-        getImageUris();
+//        getImageUris();
 
         btGallary.setOnClickListener(new View.OnClickListener() {
             @Override
