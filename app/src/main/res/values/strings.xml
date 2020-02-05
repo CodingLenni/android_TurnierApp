@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TurnierApp</string>
+    <string name="neuesTurnier">Neues Turnier</string>
+    <string name="tvDescription">Turnierbeschreibung:</string>
+    <string name="btTakePicture">Bild aufnehmen</string>
+    <string name="btChooseGallery">Bild aus Galerie</string>
+    <string name="btChooseApp">Bild aus App</string>
+    <string name="btSave">Speichern</string>
+</resources>

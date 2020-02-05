@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:visibility="visible"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/img_turnier"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:paddingLeft="5dp"
+        android:scaleType="center"
+        android:visibility="visible"
+        app:srcCompat="@drawable/ic_sentiment_dissatisfied_white_24dp" />
+
+    <TextView
+        android:id="@+id/tv_turnier"
+        android:layout_width="318dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.87"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="0dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:visibility="visible" />
+</LinearLayout>
